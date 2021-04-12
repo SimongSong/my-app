@@ -1,0 +1,27 @@
+#Background {
+  width: inherit;
+  height: inherit;
+  background-color: skyblue;
+
+  svg {
+    display: block;
+    width: inherit;
+    height: inherit;
+    .Dot {
+      // transform: translateY(100);
+      animation: slow 1s;
+    }
+    line {
+      stroke: black;
+      stroke-width: 1;
+    }
+    @keyframes slow {
+      from {
+        transform: translateY(-10);
+      }
+      to {
+        transform: translateY(10);
+      }
+    }
+  }
+}

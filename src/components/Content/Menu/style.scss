@@ -1,0 +1,101 @@
+$w: 20em;
+
+#Menu {
+  transition: 0.5s transform;
+  background-color: #3e443c;
+  position: absolute;
+  width: 15em;
+  height: 60%;
+
+  top: 1em;
+  left: calc(50% - 7.5em);
+  transform: translateY(-150%);
+  transition: 0.5s transform;
+  text-align: center;
+  .FishTanks{
+      height: 90%;
+  }
+  .Wrapper{
+    height: 90%;  
+    overflow-y: scroll;
+      & {
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+        scrollbar-width: none; /* Firefox */
+      }
+      &::-webkit-scrollbar {
+        display: none; /* Safari and Chrome */
+      }
+  }
+  .Fish {
+    background: rgb(102, 103, 116);
+    cursor: pointer;    
+    height: 3em;
+    position: relative;
+    img {
+      width: 3em;
+      height: 3em;
+      margin-left: 2em;
+      margin-right: 1em;
+      
+      float: left
+    //   position: absolute;
+    //   left: 2em;
+    }
+    .Image {
+      display: inline-block;
+      height: 3em;
+      line-height: 3em;
+      float: left;
+    }
+  }
+  .CloseButton {
+    cursor: pointer;
+    border: 0.3em solid black;
+    font-size: 1.2em;
+    background-color: salmon;
+    text-align: center;
+    padding: 0.2em 0 0.2em 0;
+    &:hover {
+      background-color: white;
+    }
+  }
+
+  &.Show {
+    transform: translateY(0);
+  }
+
+
+}
+
+#FishingTrophy {
+  cursor: pointer;
+  transition: 0.5s transform;
+  //   background-image: linear-gradient(to bottom, #828c51 , #bed69e);0
+  background-color: #bed69e;
+  position: absolute;
+  width: $w;
+  height: 20em;
+  top: 1em;
+  left: calc(50% - 10em);
+  transform: translateY(calc(100vh + 30em));
+  text-align: center;
+  border-radius: 50%;
+  .Oops{
+      padding-top: 5em;
+  }
+  .FishImage {
+    width: 5em;
+    height: 5em;
+    margin: 3em auto;
+    margin-bottom: -1em;
+    display: block;
+  }
+  b {
+    font-weight: 400;
+    font-size: 2em;
+  }
+
+  &.Show {
+    transform: translateY(0);
+  }
+}

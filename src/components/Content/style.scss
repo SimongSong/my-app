@@ -1,0 +1,200 @@
+#Content {
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin: 0;
+  overflow: hidden;
+}
+
+.BackButton {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 0.75em;
+  padding: 0.2em 0.4em 0 0.4em;
+  border: 0.2em solid black;
+  cursor: pointer;
+  &:hover {
+    background-color: white;
+  }
+}
+
+#MainTitle {
+  text-align: center;
+  width: inherit;
+  height: inherit;
+  overflow-y: scroll;
+  .Wrapper {
+    width: inherit;
+    height: 35em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .Text {
+    display: block;
+    .Title {
+      font-size: 2em;
+    }
+    .Emphasis {
+      font-size: 1.5em;
+      color: salmon;
+    }
+    .Korean {
+      font-size: 0.8em;
+    }
+
+    .Button {
+      margin-top: 0.5em;
+      display: block;
+      width: 100%;
+      font-size: 1.5em;
+      span {
+        cursor: pointer;
+        border: 0.2em solid salmon;
+        padding: 0.2em;
+        display: inline-block;
+      }
+      span:hover {
+        background-color: salmon;
+      }
+    }
+  }
+
+  .MainImage {
+    width: 15em;
+    height: 15em;
+  }
+}
+#HowToPlay {
+  font-size: 2em;
+  overflow-y: scroll;
+  height: inherit;
+  .Info {
+    margin: 1em auto;
+    width: 60%;
+  }
+  .IconSample {
+    width: 3em;
+    margin: 0 auto;
+    display: block;
+  }
+  svg {
+    display: block;
+    width: 100%;
+  }
+}
+
+#AboutMe {
+  width: inherit;
+  height: inherit;
+  overflow-y: scroll;
+  text-align: center;
+  font-size: 2em;
+  .Info {
+    margin-top: 1em;
+    width: inherit;
+    .Me {
+      width: 12em;
+      border-radius: 50%;
+    }
+    span {
+      display: inline-block;
+    }
+    > span {
+      text-align: left;
+      width: 60%;
+    }
+
+    .Country {
+      font-size: 0.7em;
+    }
+
+    .Job {
+      display: block;
+      // border: .2em solid salmon;
+      margin-bottom: 1em;
+      .JobCompany {
+        color: salmon;
+        margin-right: 0.5em;
+        // background-color: red;
+        margin-bottom: 0em;
+        // display: block;
+        // border-bottom: .25em solid salmon;
+      }
+      .JobTitle {
+        display: block;
+        font-size: 0.7em;
+      }
+      .JobLength {
+        display: block;
+        font-size: 0.5em;
+      }
+      .Description {
+        display: block;
+      }
+    }
+
+    .LOption {
+      font-size: 0.6em;
+      //   width: 7em;
+      display: inline-block;
+      padding: 0 0.6em 0 0.6em;
+      text-align: center;
+      margin-left: 0.2em;
+      cursor: default;
+      padding-top: 0.16em;
+      line-height: 1.2em;
+      &:hover {
+        color: white;
+      }
+      &.Language {
+        border: 0.2em solid tomato;
+      }
+      &.Language:hover {
+        background-color: tomato;
+      }
+
+      &.ETC {
+        border: 0.2em solid firebrick;
+      }
+      &.ETC:hover {
+        background-color: firebrick;
+      }
+      &.Tool {
+        border: 0.2em solid orange;
+      }
+      &.Tool:hover {
+        background-color: orange;
+      }
+      &.Web {
+        border: 0.2em solid olivedrab;
+      }
+      &.Web:hover {
+        background-color: olivedrab;
+      }
+      &.Key {
+        border: 0.2em solid plum;
+      }
+      &.Key:hover {
+        background-color: plum;
+      }
+    }
+    .Contact {
+      font-size: 0.6em;
+    }
+
+    b {
+      font-weight: 400;
+      color: salmon;
+      white-space: inherit;
+    }
+  }
+  .Work {
+  }
+}
