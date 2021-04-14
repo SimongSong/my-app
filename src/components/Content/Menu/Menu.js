@@ -98,7 +98,7 @@ function Menu() {
         {fishList.map((f) => (
           <div className="Fish" key={`${f.id}-fishrow`}>
             <span>
-              <img src={getFishIcon(f.id)}></img>
+              <img src={getFishIcon(f.id)} alt=""></img>
             </span>
             <span className="Image"> {Math.round(f.size * 100) / 100}cm</span>
           </div>

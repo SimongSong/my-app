@@ -1,7 +1,6 @@
 import { useDispatch } from "react-redux";
 import { setContentState } from "../componentSlice";
 import MainImage from "../../images/main.png";
-import { useState } from "react";
 function MainTitle() {
   const dispatch = useDispatch();
   return (
@@ -11,6 +10,7 @@ function MainTitle() {
         <img
           className="MainImage"
           src={MainImage}
+          alt=""
         ></img>
         <span className="Text">
           <span className="Title">Hello</span>

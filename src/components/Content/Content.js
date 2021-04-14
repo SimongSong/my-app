@@ -1,7 +1,7 @@
 import MainTitle from "./MainTitle";
 import "./style.scss";
-import { setContentState, selectContentState, selectShowTouch, selectShowFishingTrophy } from "../componentSlice";
-import { useDispatch, useSelector } from "react-redux";
+import { selectContentState, selectShowTouch } from "../componentSlice";
+import { useSelector } from "react-redux";
 import HowToPlay from "./HowToPlay";
 import AboutMe from "./AboutMe";
 import FishingMenu from "./Fishing/FishingMenu";
@@ -9,10 +9,8 @@ import TouchScreen from "./Fishing/TouchScreen";
 import Menu from "./Menu/Menu";
 import FishingTrophy from "./Menu/FishingTrophy";
 function Content() {
-  const dispatch = useDispatch();
   const contentState = useSelector(selectContentState);
   const showTouch = useSelector(selectShowTouch)
-  const showFishingTrophy = useSelector(selectShowFishingTrophy)
 function showTouchScreen(){
     if(!showTouch){
         return getComponent();

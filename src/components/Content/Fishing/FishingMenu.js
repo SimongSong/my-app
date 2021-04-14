@@ -26,7 +26,6 @@ function FishingMenu() {
   const fishing = useSelector(selectFishing);
   const fishBite = useSelector(selectFishBite);
   const [closed, setClosed] = useState(true);
-  const fe = useSelector(selectShowFishingTrophy);
   const dispatch = useDispatch();
   function renderMenu() {
     if (showTouch) {
@@ -130,7 +129,7 @@ function FishingMenu() {
               dispatch(setShowFishingTrophy(false));
             }}
           >
-            <img className="FishingIcon" src={FishingIcon}></img>
+            <img className="FishingIcon" src={FishingIcon} alt=""></img>
             Fishing
           </div>
           <div
@@ -140,7 +139,7 @@ function FishingMenu() {
               if (showTrophy) dispatch(setShowFishingTrophy(false));
             }}
           >
-            <img className="FishingIcon" src={CameraIcon}></img>
+            <img className="FishingIcon" src={CameraIcon} alt=""></img>
             Record
           </div>
         </div>

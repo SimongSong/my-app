@@ -21,6 +21,11 @@
     background-color: white;
   }
 }
+.Divider{
+    height: .2em;
+    display: block;
+    background-color: khaki;
+}
 
 #MainTitle {
   text-align: center;
@@ -118,7 +123,7 @@
     .Job {
       display: block;
       // border: .2em solid salmon;
-      margin-bottom: 1em;
+      margin-bottom: .5em;
       .JobCompany {
         color: salmon;
         margin-right: 0.5em;

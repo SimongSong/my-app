@@ -1,6 +1,5 @@
 import { useDispatch } from "react-redux";
 import { setContentState } from "../componentSlice";
-import Me from "../../images/Me.jpg";
 function AboutMe() {
   const dispatch = useDispatch();
   return (
@@ -12,19 +11,17 @@ function AboutMe() {
         BACK
       </div>
       <div className="Info">
-        {/* <img className="Me" src={Me}></img> */}
         <br></br>
         <span className="Big Line">
           Hi! I am <b>Simong SONG</b>.
         </span>
-        <br></br>
+        <span className="Divider"></span>
         <span className="Line">
           On May 2020, I graduated from <b>University of British Columbia</b>{" "}
           with a Bachelor’s degree in{" "}
           <b>Applied Science(Computer Engineering)</b>.
         </span>
-        <br></br>
-        <br></br>
+        <span className="Divider"></span>
         <span>At my current job I am mostly using:</span>
         <span>
           <span className="LOption Language">JavaScript</span>
@@ -37,8 +34,7 @@ function AboutMe() {
           <span className="LOption ETC">HTML/CSS</span>
           <span className="LOption ETC">SQL</span>
         </span>
-        <br></br>
-        <br></br>
+        <br></br><br></br>
         <span>In the past, I have worked with:</span>
         <span>
           <span className="LOption Language">Python</span>
@@ -49,8 +45,7 @@ function AboutMe() {
           <span className="LOption Web">Django</span>
           <span className="LOption Tool">AWS</span>
         </span>
-        <br></br>
-        <br></br>
+        <span className="Divider"></span>
         <span>
           Before coming to <b>Canada</b> I lived in:<br></br>
           <span className="Country">[South Korea]_</span>
@@ -58,8 +53,7 @@ function AboutMe() {
           <span className="Country">[South Africa]_</span>
           <span className="Country">[Zambia]</span>
         </span>
-        <br></br>
-        <br></br>
+        <span className="Divider"></span>
         <span>
           Currently I am working at:
           <span className="Job">
@@ -80,7 +74,7 @@ function AboutMe() {
             </span>
           </span>
         </span>
-
+        <span className="Divider"></span>
         <span>
           I have also worked at:
           <span className="Job">
@@ -100,6 +94,7 @@ function AboutMe() {
               <span className="LOption Web">Django</span>
             </span>
           </span>
+          
           <span className="Job">
             <span className="JobCompany">The Shah Lab, BC Cancer</span>
             <span className="JobTitle">
@@ -126,7 +121,6 @@ function AboutMe() {
             <span className="Description">
               <span className="LOption Key">Testing</span>
               <span className="LOption Key">Automation</span>
-              <span className="LOption Key">Java</span>
               <span className="LOption Key">Android</span>
               <span className="LOption Language">Python</span>
               <span className="LOption Language">Java</span>
@@ -134,18 +128,19 @@ function AboutMe() {
               <span className="LOption Tool">AWS</span>
             </span>
           </span>
-          <span>
+        </span>
+        <span className="Divider"></span>
+        <span>
             CONTACT ME!
             <br></br>
             <span className="Contact">email:simong.song95[at][gmail.com]</span>
             <br></br>
             <span className="Contact">
-              linkedin: linkedin.com/in/simongsong
+              linkedin: <a href="https://www.linkedin.com/in/simongsong/">linkedin.com/in/simongsong</a>
             </span>
             <br></br>
             <br></br>
           </span>
-        </span>
       </div>
     </div>
   );

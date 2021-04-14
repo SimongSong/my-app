@@ -78,7 +78,7 @@ function FishingTrophy() {
     >
       {fish.id !== 0 && (
         <div>
-          <img className="FishImage" src={icon}></img>
+          <img className="FishImage" src={icon} alt=""></img>
           <b></b>Nice! You caught<br></br> <b>{fish.name}</b>
           <br></br>
           It is {Math.round(fish.size * 100) / 100}cm long!

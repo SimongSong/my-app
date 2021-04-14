@@ -18,9 +18,9 @@ function HowToPlay() {
         <br></br>
         You see Two Icons
         <br></br>
-        <img className="IconSample" src={DIcon}></img>
+        <img className="IconSample" src={DIcon} alt=""></img>
         This is Fishing Buton. Click this to Fish!<br></br>
-        <img className="IconSample" src={CIcon}></img>
+        <img className="IconSample" src={CIcon} alt=""></img>
         This is Record Button. Click this to see the biggest fish you caught!
         <br></br>
         <br></br>
