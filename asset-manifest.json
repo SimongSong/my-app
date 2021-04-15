@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.e1f9c14a.chunk.css",
-    "main.js": "/my-app/static/js/main.8fe5554a.chunk.js",
-    "main.js.map": "/my-app/static/js/main.8fe5554a.chunk.js.map",
+    "main.css": "/my-app/static/css/main.e7b63fb6.chunk.css",
+    "main.js": "/my-app/static/js/main.d2894ca9.chunk.js",
+    "main.js.map": "/my-app/static/js/main.d2894ca9.chunk.js.map",
     "runtime-main.js": "/my-app/static/js/runtime-main.6754628f.js",
     "runtime-main.js.map": "/my-app/static/js/runtime-main.6754628f.js.map",
     "static/js/2.6da17254.chunk.js": "/my-app/static/js/2.6da17254.chunk.js",
     "static/js/2.6da17254.chunk.js.map": "/my-app/static/js/2.6da17254.chunk.js.map",
     "index.html": "/my-app/index.html",
-    "static/css/main.e1f9c14a.chunk.css.map": "/my-app/static/css/main.e1f9c14a.chunk.css.map",
+    "static/css/main.e7b63fb6.chunk.css.map": "/my-app/static/css/main.e7b63fb6.chunk.css.map",
     "static/js/2.6da17254.chunk.js.LICENSE.txt": "/my-app/static/js/2.6da17254.chunk.js.LICENSE.txt",
     "static/media/bluegill.96ee8251.png": "/my-app/static/media/bluegill.96ee8251.png",
     "static/media/camera.a8193fa4.png": "/my-app/static/media/camera.a8193fa4.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.6754628f.js",
     "static/js/2.6da17254.chunk.js",
-    "static/css/main.e1f9c14a.chunk.css",
-    "static/js/main.8fe5554a.chunk.js"
+    "static/css/main.e7b63fb6.chunk.css",
+    "static/js/main.d2894ca9.chunk.js"
   ]
 }
