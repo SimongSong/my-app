@@ -50,13 +50,13 @@ $w: 20em;
   }
   .CloseButton {
     cursor: pointer;
-    border: 0.3em solid black;
+    border: 0.3em solid white;
     font-size: 1.2em;
     background-color: salmon;
     text-align: center;
     padding: 0.2em 0 0.2em 0;
     &:hover {
-      background-color: white;
+      background-color: grey;
     }
   }
 
@@ -68,6 +68,7 @@ $w: 20em;
 }
 
 #FishingTrophy {
+  color: black;
   cursor: pointer;
   transition: 0.5s transform;
   //   background-image: linear-gradient(to bottom, #828c51 , #bed69e);0

@@ -94,7 +94,7 @@ function AboutMe() {
               <span className="LOption Web">Django</span>
             </span>
           </span>
-          
+          <br></br>
           <span className="Job">
             <span className="JobCompany">The Shah Lab, BC Cancer</span>
             <span className="JobTitle">
@@ -112,6 +112,7 @@ function AboutMe() {
               <span className="LOption Tool">Azure</span>
             </span>
           </span>
+          <br></br>
           <span className="Job">
             <span className="JobCompany">realtor.com</span>
             <span className="JobTitle">

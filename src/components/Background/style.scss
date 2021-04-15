@@ -1,27 +1,41 @@
 #Background {
   width: inherit;
   height: inherit;
-  background-color: skyblue;
+  overflow: hidden;
+  background-color: #1c2e4a;
 
-  svg {
-    display: block;
-    width: inherit;
-    height: inherit;
-    .Dot {
-      // transform: translateY(100);
-      animation: slow 1s;
-    }
+  .Wave {
+    // fill: url(#star);
+   display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
     line {
       stroke: black;
-      stroke-width: 1;
+      stroke-width: 2;
     }
-    @keyframes slow {
-      from {
-        transform: translateY(-10);
+
+    @keyframes demo {
+      0% {
+        transform: translateX(0);
       }
-      to {
-        transform: translateY(10);
-      }
+      50% {
+       
+        transform: translateX(1000);}
+      100% {
+
+        transform: translateX(0); 
+           }
     }
+
+
+
+    // transform: translateY(10%);
   }
+
+
+
+
+
 }
+

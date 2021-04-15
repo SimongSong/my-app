@@ -7,6 +7,7 @@
   z-index: 1;
   margin: 0;
   overflow: hidden;
+  color: white;
 }
 
 .BackButton {
@@ -15,10 +16,10 @@
   top: 0;
   font-size: 0.75em;
   padding: 0.2em 0.4em 0 0.4em;
-  border: 0.2em solid black;
+  border: 0.2em solid white;
   cursor: pointer;
   &:hover {
-    background-color: white;
+    background-color: black;
   }
 }
 .Divider{
@@ -123,7 +124,6 @@
     .Job {
       display: block;
       // border: .2em solid salmon;
-      margin-bottom: .5em;
       .JobCompany {
         color: salmon;
         margin-right: 0.5em;

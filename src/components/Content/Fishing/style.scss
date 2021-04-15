@@ -26,7 +26,7 @@
     text-align: center;
     line-height: 2.3em;
     padding-top: 0.1em;
-    border: 0.3em solid black;
+    border: 0.3em solid white;
     cursor: pointer;
     &.Cancel {
       background-color: salmon;
@@ -38,7 +38,7 @@
       background-color: rgb(214, 56, 38);
     }
     &:hover {
-      background-color: white;
+      background-color: black;
     }
   }
   .Expanded {
@@ -70,6 +70,7 @@
 }
 
 #Floater {
+  color: black;
   height: 17em;
   cursor: pointer;
   div {
